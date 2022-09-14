@@ -1,0 +1,130 @@
+@prefix : <http://lod.nik.uni-obuda.hu/oloud/oloud-time#> .
+@prefix ta: <http://ontology.ihmc.us/temporalAggregates.owl#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://lod.nik.uni-obuda.hu/oloud/oloud-time#> .
+
+<http://lod.nik.uni-obuda.hu/oloud-time#> rdf:type owl:Ontology ;
+                                          
+                                          dcterms:date "2016-06-09"^^xsd:date ;
+                                          
+                                          dcterms:issued "2016-06-09"^^xsd:date ;
+                                          
+                                          vann:preferredNamespacePrefix "otime" ;
+                                          
+                                          dcterms:description "This ontology provides extension classes for Temporal data."@en ;
+                                          
+                                          dcterms:isVersionOf "http://lod.nik.uni-obuda.hu/oloud/oloud-time#" ;
+                                          
+                                          vann:preferredNamespaceUri "http://lod.nik.uni-obuda.hu/oloud/oloud-time#" ;
+                                          
+                                          dcterms:identifier "http://lod.nik.uni-obuda.hu/oloud/oloud-time-20160609" ;
+                                          
+                                          dcterms:title "Ontology extension for Temporal data" ;
+                                          
+                                          <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> ;
+                                          
+                                          dcterms:creator <http://lod.nik.uni-obuda.hu/data/Andr�s_Micsik> ,
+                                                         <http://lod.nik.uni-obuda.hu/data/Barnab�s_Sz�sz> ,
+                                                         <http://lod.nik.uni-obuda.hu/data/Rita_Fleiner> ;
+                                          
+                                          owl:imports ta: ,
+                                                      time: .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://ontology.ihmc.us/temporalAggregates.owl#hasContextTemporalUnit
+
+ta:hasContextTemporalUnit rdf:type owl:ObjectProperty .
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+###  http://lod.nik.uni-obuda.hu/oloud/oloud-time#StandardCourseTemporalAggregateDescription
+
+:StandardCourseTemporalAggregateDescription rdf:type owl:Class ;
+                                            
+                                            rdfs:subClassOf ta:TemporalAggregateDescription ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty ta:hasCount ;
+                                                              owl:hasValue 14
+                                                            ] ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty ta:hasTemporalUnit ;
+                                                              owl:hasValue time:unitDay
+                                                            ] .
+
+
+###  http://lod.nik.uni-obuda.hu/oloud/oloud-time#UnitMinuteDateTimeDescription
+
+:UnitMinuteDateTimeDescription rdf:type owl:Class ;
+                               
+                               rdfs:subClassOf time:DateTimeDescription ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty time:unitType ;
+                                                 owl:hasValue time:unitMinute
+                                               ] .
+
+###  http://lod.nik.uni-obuda.hu/oloud/oloud-time#UnitMinuteInstant
+
+:UnitMinuteInstant rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf time:Instant ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty time:inDateTime ;
+                                     owl:allValuesFrom :UnitMinuteDateTimeDescription
+                                   ] .
+
+
+
+###  http://lod.nik.uni-obuda.hu/oloud/oloud-time#UnitMinuteInterval
+
+:UnitMinuteInterval rdf:type owl:Class ;
+                    
+                    rdfs:subClassOf time:Interval ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty time:hasBeginning ;
+                                      owl:allValuesFrom :UnitMinuteInstant
+                                    ] .
+
+
+###  http://lod.nik.uni-obuda.hu/oloud/oloud-time#UnitDayDateTimeDescription
+
+:UnitDayDateTimeDescription rdf:type owl:Class ;
+                            
+                            rdfs:subClassOf time:DateTimeDescription ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty time:unitType ;
+                                              owl:hasValue time:unitDay
+                                            ] .
+
+
+
+###  http://lod.nik.uni-obuda.hu/oloud/oloud-time#UnitDayInstant
+
+:UnitDayInstant rdf:type owl:Class ;
+                
+                rdfs:subClassOf time:Instant ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty time:inDateTime ;
+                                  owl:allValuesFrom :UnitDayDateTimeDescription
+                                ] .
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
