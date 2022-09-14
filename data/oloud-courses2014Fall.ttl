@@ -1,0 +1,2342 @@
+@prefix : <http://lod.nik.uni-obuda.hu/data/> .
+@prefix oloud: <http://lod.nik.uni-obuda.hu/oloud-base#> .
+@prefix loc: <http://lod.nik.uni-obuda.hu/oloud-indoor#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix part: <http://purl.org/vocab/participation/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@base <http://lod.nik.uni-obuda.hu/data/> .
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_01_E_2014-15-1
+		:AB0_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_01_E"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAED ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher :Dominika_Fleiner ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=55;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_02_E_2014-15-1
+		:AB0_LA_02_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_02_E"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAED ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher :Dominika_Fleiner ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_EA_2014-15-1
+		:AB0_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_EA"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAND ;
+                     oloud:locatedAt :F01 ;
+                     oloud:courseTeacher :Dominika_Fleiner ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_01_2014-15-1
+		:AB0_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_01"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Gábor_Légrádi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=1;durationMinute=40;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_02_2014-15-1
+		:AB0_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_02"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAND ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher :Gábor_Légrádi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_03_2014-15-1
+		:AB0_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_03"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAND ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher :Gábor_Légrádi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_04_2014-15-1
+		:AB0_LA_04_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_04"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAND ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher :Gábor_Légrádi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_05_2014-15-1
+		:AB0_LA_05_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_05"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAND ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher :Dominika_Fleiner ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_06_2014-15-1
+		:AB0_LA_06_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_06"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAND ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher : ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_08_2014-15-1
+		:AB0_LA_08_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_08"@hu ;
+                     oloud:courseName "Adatbázisok"@hu ;
+                     oloud:courseSubject :NAIAB0SAND ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher :Anna_Várkonyi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_EA_ENG_2014-15-1
+		:AB0_EA_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_EA_ENG"@hu ;
+                     oloud:courseName "Database management"@hu ;
+                     oloud:courseSubject :NAIAB0SEND ;
+                     oloud:locatedAt :PC_Labor_212 ;
+                     oloud:courseTeacher :Anna_Várkonyi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AB0_LA_01_ENG_2014-15-1
+		:AB0_LA_01_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AB0_LA_01_ENG"@hu ;
+                     oloud:courseName "Database management"@hu ;
+                     oloud:courseSubject :NAIAB0SEND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Zsolt_Szabó-Resch ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_EA_01_MSC_2014-15-1
+		:PR1_EA_01_MSC_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_EA_01_MSC"@hu ;
+                     oloud:courseName "Párhuzamos és elosztott rendszerek architerktúrája"@hu ;
+                     oloud:courseSubject :NAIAR1CANM ;
+                     oloud:locatedAt :F02 ;
+                     oloud:courseTeacher :Tamás_Schubert ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AR1_EA_01_2014-15-1
+		:AR1_EA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "AR1_EA_01"@hu ;
+                     oloud:courseName "Architectures of Parallel and Distributed Systems"@hu ;
+                     oloud:courseSubject :NAIAR1CENM ;
+                     oloud:locatedAt :PC_Labor_218 ;
+                     oloud:courseTeacher :Gyula_Fehér ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/ST1_LA_01_BRA_2014-15-1
+		:ST1_LA_01_BRA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "ST1_LA_01_BRA"@hu ;
+                     oloud:courseName "Cloud Technologies"@hu ;
+                     oloud:courseSubject :NAICT1SEND ;
+                     oloud:locatedAt :PC_Labor_218 ;
+                     oloud:courseTeacher :Gyula_Fehér ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/ST1_LA_01_BRA_2014-15-1
+		:ST1_LA_01_BRA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "ST1_LA_01_BRA"@hu ;
+                     oloud:courseName "Cloud Technologies"@hu ;
+                     oloud:courseSubject :NAICT1SEND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Gyula_Fehér ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/DR0_EA_E_2014-15-1
+		:DR0_EA_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "DR0_EA_E"@hu ;
+                     oloud:courseName "Digitális rendszerek"@hu ;
+                     oloud:courseSubject :NAIDR0SAED ;
+                     oloud:locatedAt :F08 ;
+                     oloud:courseTeacher :Tamás_Vigh ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=18;minute=45;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/DR0_EA_2014-15-1
+		:DR0_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "DR0_EA"@hu ;
+                     oloud:courseName "Digitális rendszerek"@hu ;
+                     oloud:courseSubject :NAIDR0SAND ;
+                     oloud:locatedAt :F01 ;
+                     oloud:courseTeacher :Antal_Turóczi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=2;durationMinute=30;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/DR0_EA_ENG_2014-15-1
+		:DR0_EA_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "DR0_EA_ENG"@hu ;
+                     oloud:courseName "Digital Systems"@hu ;
+                     oloud:courseSubject :NAIDR0SEND ;
+                     oloud:locatedAt :F07 ;
+                     oloud:courseTeacher :Tamás_Ferenci ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EB1_EA_01_MSC_2014-15-1
+		:EB1_EA_01_MSC_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EB1_EA_01_MSC"@hu ;
+                     oloud:courseName "Elosztott beágyazott rendszerek"@hu ;
+                     oloud:courseSubject :NAIEB1CANM ;
+                     oloud:locatedAt :F04 ;
+                     oloud:courseTeacher :András_Molnár ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EB1_LA_01_MSC_2014-15-1
+		:EB1_LA_01_MSC_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EB1_LA_01_MSC"@hu ;
+                     oloud:courseName "Elosztott beágyazott rendszerek"@hu ;
+                     oloud:courseSubject :NAIEB1CANM ;
+                     oloud:locatedAt :F04 ;
+                     oloud:courseTeacher :András_Molnár ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=45;durationMinute=n;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EB1_EA_01_2014-15-1
+		:EB1_EA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EB1_EA_01"@hu ;
+                     oloud:courseName "Distributed Embedded Systems"@hu ;
+                     oloud:courseSubject :NAIEB1CENM ;
+                     oloud:locatedAt :F02 ;
+                     oloud:courseTeacher :György_Eigner ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=5> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EB1_LA_01_2014-15-1
+		:EB1_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EB1_LA_01"@hu ;
+                     oloud:courseName "Distributed Embedded Systems"@hu ;
+                     oloud:courseSubject :NAIEB1CENM ;
+                     oloud:locatedAt :F02 ;
+                     oloud:courseTeacher :György_Eigner ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=45;durationMinute=n;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_EA_E_2014-15-1
+		:EL0_EA_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_EA_E"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAED ;
+                     oloud:locatedAt :F07 ;
+                     oloud:courseTeacher :Antal_Turóczi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=55;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_01_E_2014-15-1
+		:EL0_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_01_E"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAED ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :László_Somlyai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=19;minute=35;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_02_E_2014-15-1
+		:EL0_LA_02_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_02_E"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAED ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :László_Somlyai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=19;minute=35;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_EA_2014-15-1
+		:EL0_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_EA"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :AudMax ;
+                     oloud:courseTeacher :Antal_Turóczi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=14;minute=25;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_01_2014-15-1
+		:EL0_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_01"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :László_Somlyai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_02_2014-15-1
+		:EL0_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_02"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :László_Somlyai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_03_2014-15-1
+		:EL0_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_03"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :László_Somlyai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_04_2014-15-1
+		:EL0_LA_04_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_04"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Antal_Turóczi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_05_2014-15-1
+		:EL0_LA_05_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_05"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Tamás_Vigh ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_06_2014-15-1
+		:EL0_LA_06_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_06"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Tamás_Vigh ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_07_2014-15-1
+		:EL0_LA_07_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_07"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Tamás_Vigh ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_08_2014-15-1
+		:EL0_LA_08_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_08"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Tamás_Vigh ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_09_2014-15-1
+		:EL0_LA_09_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_09"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :László_Somlyai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=14;minute=25;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_10_2014-15-1
+		:EL0_LA_10_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_10"@hu ;
+                     oloud:courseName "Elektronika"@hu ;
+                     oloud:courseSubject :NAIEL0SAND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :László_Somlyai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_EA_ENG_2014-15-1
+		:EL0_EA_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_EA_ENG"@hu ;
+                     oloud:courseName "Electronics"@hu ;
+                     oloud:courseSubject :NAIEL0SEND ;
+                     oloud:locatedAt :F02 ;
+                     oloud:courseTeacher :Tamás_Ferenci ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/EL0_LA_01_ENG_2014-15-1
+		:EL0_LA_01_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "EL0_LA_01_ENG"@hu ;
+                     oloud:courseName "Electronics"@hu ;
+                     oloud:courseSubject :NAIEL0SEND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :György_Eigner ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/FF1_LA_01_V_2014-15-1
+		:FF1_LA_01_V_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "FF1_LA_01_V"@hu ;
+                     oloud:courseName "Mobil alkalmazás fejlesztés FirefoxOS platformon"@hu ;
+                     oloud:courseSubject :NAIFF1SVNC ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Krisztián_Karóczkai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/FN1_EA_LEV_2014-15-1
+		:FN1_EA_LEV_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "FN1_EA_LEV"@hu ;
+                     oloud:courseName "Formális nyelvek és gépek"@hu ;
+                     oloud:courseSubject :NAIFN1PALM ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :László_Csink ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=4;durationMinute=25;dayofweek=6> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/HS1_EA_01_MSC_2014-15-1
+		:HS1_EA_01_MSC_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "HS1_EA_01_MSC"@hu ;
+                     oloud:courseName "Haladó szoftvertechnológiák I."@hu ;
+                     oloud:courseSubject :NAIHS1CANM ;
+                     oloud:locatedAt :F05 ;
+                     oloud:courseTeacher :József_Tick ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/ST1_EA_01_2014-15-1
+		:ST1_EA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "ST1_EA_01"@hu ;
+                     oloud:courseName "Advanced Software Technology I."@hu ;
+                     oloud:courseSubject :NAIHS1CENM ;
+                      
+                     oloud:courseTeacher :László_Németh ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/HT1_EA_01_RG_2014-15-1
+		:HT1_EA_01_RG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "HT1_EA_01_RG"@hu ;
+                     oloud:courseName "Hálózati technológiák I."@hu ;
+                     oloud:courseSubject :NAIHT1SRND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Eszter_Balázsné ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_EA_E_2014-15-1
+		:IA1_EA_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_EA_E"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAED ;
+                     oloud:locatedAt :F06 ;
+                     oloud:courseTeacher :László_Kutor ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=18;minute=45;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_01_E_2014-15-1
+		:IA1_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_01_E"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAED ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Gabriella_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=20;minute=25;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_02_E_2014-15-1
+		:IA1_LA_02_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_02_E"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAED ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Gabriella_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=18;minute=45;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_03_E_2014-15-1
+		:IA1_LA_03_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_03_E"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAED ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Gabriella_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=20;minute=25;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_04_E_2014-15-1
+		:IA1_LA_04_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_04_E"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAED ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Gabriella_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=18;minute=45;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_05_E_2014-15-1
+		:IA1_LA_05_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_05_E"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAED ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Gabriella_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=20;minute=25;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_EA_2014-15-1
+		:IA1_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_EA"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :AudMax ;
+                     oloud:courseTeacher :László_Kutor ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=05;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_EA_2014-15-1
+		:IA1_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_EA"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :AudMax ;
+                     oloud:courseTeacher :László_Kutor ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=05;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_01_2014-15-1
+		:IA1_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_01"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Zoltán_Stojcsics ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_02_2014-15-1
+		:IA1_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_02"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Zoltán_Stojcsics ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_03_2014-15-1
+		:IA1_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_03"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Márton_Léczfalvy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_04_2014-15-1
+		:IA1_LA_04_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_04"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Márton_Léczfalvy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_05_2014-15-1
+		:IA1_LA_05_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_05"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Márton_Léczfalvy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_06_2014-15-1
+		:IA1_LA_06_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_06"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Márton_Léczfalvy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_07_2014-15-1
+		:IA1_LA_07_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_07"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :József_Kelemen ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_08_2014-15-1
+		:IA1_LA_08_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_08"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :József_Kelemen ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_09_2014-15-1
+		:IA1_LA_09_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_09"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :József_Kelemen ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_10_2014-15-1
+		:IA1_LA_10_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_10"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :József_Kelemen ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_11_2014-15-1
+		:IA1_LA_11_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_11"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :István_Lovas ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_12_2014-15-1
+		:IA1_LA_12_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_12"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :István_Lovas ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_13_2014-15-1
+		:IA1_LA_13_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_13"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :István_Lovas ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_14_2014-15-1
+		:IA1_LA_14_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_14"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :István_Lovas ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_15_2014-15-1
+		:IA1_LA_15_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_15"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :István_Lovas ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_LA_16_2014-15-1
+		:IA1_LA_16_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_LA_16"@hu ;
+                     oloud:courseName "Informatikai rendszerek alapjai"@hu ;
+                     oloud:courseSubject :NAIIA1SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :István_Lovas ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IA1_EA_ENG_2014-15-1
+		:IA1_EA_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IA1_EA_ENG"@hu ;
+                     oloud:courseName "Basics of information systems"@hu ;
+                     oloud:courseSubject :NAIIA1SEND ;
+                     oloud:locatedAt :F04 ;
+                     oloud:courseTeacher :Adalbert_Kovács ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IK1_EA_E_2014-15-1
+		:IK1_EA_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IK1_EA_E"@hu ;
+                     oloud:courseName "Infokommunikációs technikák"@hu ;
+                     oloud:courseSubject :NAIIK1SAED ;
+                     oloud:locatedAt :F07 ;
+                     oloud:courseTeacher :Valéria_Póser ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IK1_EA_2014-15-1
+		:IK1_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IK1_EA"@hu ;
+                     oloud:courseName "Infokommunikációs technikák"@hu ;
+                     oloud:courseSubject :NAIIK1SAND ;
+                     oloud:locatedAt :F07 ;
+                     oloud:courseTeacher :Valéria_Póser ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IT1_EA_01_RG_2014-15-1
+		:IT1_EA_01_RG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IT1_EA_01_RG"@hu ;
+                     oloud:courseName "Internet technológiák"@hu ;
+                     oloud:courseSubject :NAIIT1SRND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Eszter_Balázsné ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/IT1_LA_01_RG_2014-15-1
+		:IT1_LA_01_RG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "IT1_LA_01_RG"@hu ;
+                     oloud:courseName "Internet technológiák"@hu ;
+                     oloud:courseSubject :NAIIT1SRND ;
+                     oloud:locatedAt :PC_Labor_213 ;
+                     oloud:courseTeacher :Eszter_Balázsné ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MK1_LA_01_ROB_2014-15-1
+		:MK1_LA_01_ROB_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MK1_LA_01_ROB"@hu ;
+                     oloud:courseName "Mérnöki informatika korszerű fejlesztő eszközei"@hu ;
+                     oloud:courseSubject :NAIMK1SUND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Szabolcs_Sergyán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MK1_EA_01_VAL_2014-15-1
+		:MK1_EA_01_VAL_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MK1_EA_01_VAL"@hu ;
+                     oloud:courseName "Információs és kommunikációs technológiák, rendszerek az egészségügyben"@hu ;
+                     oloud:courseSubject :NAIMK1SVND ;
+                     oloud:locatedAt :F02 ;
+                     oloud:courseTeacher :Miklós_Kozlovszky ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_01_E_2014-15-1
+		:MP1_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_01_E"@hu ;
+                     oloud:courseName "Modern programozási nyelv"@hu ;
+                     oloud:courseSubject :NAIMP1SAED ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Dávid_Bedők ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=19;minute=35;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_02_E_2014-15-1
+		:MP1_LA_02_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_02_E"@hu ;
+                     oloud:courseName "Modern programozási nyelv"@hu ;
+                     oloud:courseSubject :NAIMP1SAED ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Dávid_Bedők ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=19;minute=35;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_01_2014-15-1
+		:MP1_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_01"@hu ;
+                     oloud:courseName "Modern programozási nyelv"@hu ;
+                     oloud:courseSubject :NAIMP1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :Sándor_Szénási ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_02_2014-15-1
+		:MP1_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_02"@hu ;
+                     oloud:courseName "Modern programozási nyelv"@hu ;
+                     oloud:courseSubject :NAIMP1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :Sándor_Szénási ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_03_2014-15-1
+		:MP1_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_03"@hu ;
+                     oloud:courseName "Modern programozási nyelv"@hu ;
+                     oloud:courseSubject :NAIMP1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :Sándor_Szénási ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_04_2014-15-1
+		:MP1_LA_04_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_04"@hu ;
+                     oloud:courseName "Modern programozási nyelv"@hu ;
+                     oloud:courseSubject :NAIMP1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :Sándor_Szénási ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_05_2014-15-1
+		:MP1_LA_05_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_05"@hu ;
+                     oloud:courseName "Modern programozási nyelv"@hu ;
+                     oloud:courseSubject :NAIMP1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :István_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=11;minute=40;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_06_2014-15-1
+		:MP1_LA_06_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_06"@hu ;
+                     oloud:courseName "Modern programozási nyelv"@hu ;
+                     oloud:courseSubject :NAIMP1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :István_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=1;durationMinute=40;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/MP1_LA_01_ENG_2014-15-1
+		:MP1_LA_01_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "MP1_LA_01_ENG"@hu ;
+                     oloud:courseName "Modern programming language"@hu ;
+                     oloud:courseSubject :NAIMP1SEND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :Sándor_Szénási ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_EA_E_2014-15-1
+		:OP0_EA_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_EA_E"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAED ;
+                     oloud:locatedAt :AudMax ;
+                     oloud:courseTeacher :Zsolt_Bringye ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=05;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_01_E_2014-15-1
+		:OP0_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_01_E"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAED ;
+                      
+                     oloud:courseTeacher :Dániel_Prém ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=19;minute=35;durationHour=2;durationMinute=25;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_02_E_2014-15-1
+		:OP0_LA_02_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_02_E"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAED ;
+                      
+                     oloud:courseTeacher :Dániel_Prém ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=19;minute=35;durationHour=2;durationMinute=25;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_EA_2014-15-1
+		:OP0_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_EA"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :F01 ;
+                     oloud:courseTeacher :Zsolt_Bringye ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=5> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_01_2014-15-1
+		:OP0_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_01"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                      
+                     oloud:courseTeacher :Dániel_Prém ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_02_2014-15-1
+		:OP0_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_02"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                      
+                     oloud:courseTeacher :Dániel_Prém ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_03_2014-15-1
+		:OP0_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_03"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                      
+                     oloud:courseTeacher :Ádám_Simon ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_04_2014-15-1
+		:OP0_LA_04_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_04"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                      
+                     oloud:courseTeacher :Ádám_Simon ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_05_2014-15-1
+		:OP0_LA_05_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_05"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                      
+                     oloud:courseTeacher :Ádám_Simon ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=2;durationMinute=30;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_06_2014-15-1
+		:OP0_LA_06_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_06"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                      
+                     oloud:courseTeacher :Ádám_Simon ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_07_2014-15-1
+		:OP0_LA_07_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_07"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Gergely_Windisch ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_08_2014-15-1
+		:OP0_LA_08_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_08"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Gergely_Windisch ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_09_2014-15-1
+		:OP0_LA_09_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_09"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Zsolt_Sziklai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_10_2014-15-1
+		:OP0_LA_10_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_10"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Ádám_Tikász ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_11_2014-15-1
+		:OP0_LA_11_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_11"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Ádám_Tikász ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_12_2014-15-1
+		:OP0_LA_12_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_12"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Gergely_Windisch ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_13_2014-15-1
+		:OP0_LA_13_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_13"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Ádám_Tikász ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=2;durationMinute=35;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_14_2014-15-1
+		:OP0_LA_14_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_14"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Balázs_Kurtán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_15_2014-15-1
+		:OP0_LA_15_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_15"@hu ;
+                     oloud:courseName "Operációs rendszerek"@hu ;
+                     oloud:courseSubject :NAIOP0SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Balázs_Kurtán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_EA_ENG_2014-15-1
+		:OP0_EA_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_EA_ENG"@hu ;
+                     oloud:courseName "Operating Systems"@hu ;
+                     oloud:courseSubject :NAIOP0SEND ;
+                     oloud:locatedAt :F02 ;
+                     oloud:courseTeacher :Zsolt_Bringye ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OP0_LA_01_ENG_2014-15-1
+		:OP0_LA_01_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "OP0_LA_01_ENG"@hu ;
+                     oloud:courseName "Operating Systems"@hu ;
+                     oloud:courseSubject :NAIOP0SEND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :Gergely_Windisch ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=2;durationMinute=30;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_EA_E_2014-15-1
+		:PR1_EA_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_EA_E"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAED ;
+                     oloud:locatedAt :F06 ;
+                     oloud:courseTeacher :Szabolcs_Sergyán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=55;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_01_E_2014-15-1
+		:PR1_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_01_E"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAED ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :László_Csink ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=18;minute=45;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_02_E_2014-15-1
+		:PR1_LA_02_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_02_E"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAED ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :László_Csink ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=20;minute=25;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_04_E_2014-15-1
+		:PR1_LA_04_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_04_E"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAED ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Dávid_Bedők ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=20;minute=25;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_05_E_2014-15-1
+		:PR1_LA_05_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_05_E"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAED ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :Gábor_Kertész ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=18;minute=45;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_06_E_2014-15-1
+		:PR1_LA_06_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_06_E"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAED ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :Gábor_Kertész ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=20;minute=25;durationHour=1;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_EA_2014-15-1
+		:PR1_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_EA"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :AudMax ;
+                     oloud:courseTeacher :Szabolcs_Sergyán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_01_2014-15-1
+		:PR1_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_01"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :Szabolcs_Sergyán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=2;durationMinute=30;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_02_2014-15-1
+		:PR1_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_02"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Anna_Várkonyi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_03_2014-15-1
+		:PR1_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_03"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Gabriella_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_04_2014-15-1
+		:PR1_LA_04_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_04"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Zoltán_Vámossy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_05_2014-15-1
+		:PR1_LA_05_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_05"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Zsolt_Szabó-Resch ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_06_2014-15-1
+		:PR1_LA_06_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_06"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :László_Csink ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=2;durationMinute=25;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_07_2014-15-1
+		:PR1_LA_07_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_07"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Anna_Várkonyi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_08_2014-15-1
+		:PR1_LA_08_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_08"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Gabriella_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_09_2014-15-1
+		:PR1_LA_09_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_09"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Eszter_Cseri ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_11_2014-15-1
+		:PR1_LA_11_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_11"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Szabolcs_Sergyán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_12_2014-15-1
+		:PR1_LA_12_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_12"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :István_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_13_2014-15-1
+		:PR1_LA_13_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_13"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_215 ;
+                     oloud:courseTeacher :István_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_16_2014-15-1
+		:PR1_LA_16_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_16"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Gábor_Kertész ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_17_2014-15-1
+		:PR1_LA_17_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_17"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :István_Nagy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_18_2014-15-1
+		:PR1_LA_18_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_18"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Gábor_Kertész ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_19_2014-15-1
+		:PR1_LA_19_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_19"@hu ;
+                     oloud:courseName "Programozás I."@hu ;
+                     oloud:courseSubject :NAIPR1SAND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Gábor_Kertész ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=2;durationMinute=30;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_EA_ENG_2014-15-1
+		:PR1_EA_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_EA_ENG"@hu ;
+                     oloud:courseName "Programming I."@hu ;
+                     oloud:courseSubject :NAIPR1SEND ;
+                     oloud:locatedAt :F04 ;
+                     oloud:courseTeacher :László_Csink ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_01_ENG_2014-15-1
+		:PR1_LA_01_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_01_ENG"@hu ;
+                     oloud:courseName "Programming I."@hu ;
+                     oloud:courseSubject :NAIPR1SEND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :László_Németh ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=2;durationMinute=30;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR1_LA_02_ENG_2014-15-1
+		:PR1_LA_02_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR1_LA_02_ENG"@hu ;
+                     oloud:courseName "Programming I."@hu ;
+                     oloud:courseSubject :NAIPR1SEND ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :László_Csink ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR3_LA_01_E_2014-15-1
+		:PR3_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR3_LA_01_E"@hu ;
+                     oloud:courseName "Programozás III."@hu ;
+                     oloud:courseSubject :NAIPR3SAED ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Dávid_Bedők ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=55;durationHour=1;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR3_LA_01_2014-15-1
+		:PR3_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR3_LA_01"@hu ;
+                     oloud:courseName "Programozás III."@hu ;
+                     oloud:courseSubject :NAIPR3SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Eszter_Cseri ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR3_LA_02_2014-15-1
+		:PR3_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR3_LA_02"@hu ;
+                     oloud:courseName "Programozás III."@hu ;
+                     oloud:courseSubject :NAIPR3SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Eszter_Cseri ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR3_LA_03_2014-15-1
+		:PR3_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR3_LA_03"@hu ;
+                     oloud:courseName "Programozás III."@hu ;
+                     oloud:courseSubject :NAIPR3SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Eszter_Cseri ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=2;durationMinute=30;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR3_LA_04_2014-15-1
+		:PR3_LA_04_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR3_LA_04"@hu ;
+                     oloud:courseName "Programozás III."@hu ;
+                     oloud:courseSubject :NAIPR3SAND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Eszter_Cseri ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR3_LA_05_2014-15-1
+		:PR3_LA_05_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR3_LA_05"@hu ;
+                     oloud:courseName "Programozás III."@hu ;
+                     oloud:courseSubject :NAIPR3SAND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Zsolt_Szabó-Resch ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PR3_LA_01_ENG_2014-15-1
+		:PR3_LA_01_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "PR3_LA_01_ENG"@hu ;
+                     oloud:courseName "Programming III."@hu ;
+                     oloud:courseSubject :NAIPR3SEND ;
+                     oloud:locatedAt :PC_Labor_210 ;
+                     oloud:courseTeacher :Zsolt_Szabó-Resch ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/RM1_EA_01_ROB_2014-15-1
+		:RM1_EA_01_ROB_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "RM1_EA_01_ROB"@hu ;
+                     oloud:courseName "Robot- és 3D modellezés alapjai"@hu ;
+                     oloud:courseSubject :NAIRM1SUND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Szabolcs_Sergyán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SA2_EA_E_2014-15-1
+		:SA2_EA_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SA2_EA_E"@hu ;
+                     oloud:courseName "Számítógép architektúrák alapjai II."@hu ;
+                     oloud:courseSubject :NAISA2SAED ;
+                     oloud:locatedAt :F05 ;
+                     oloud:courseTeacher :Péter_Broczkó ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=55;durationHour=45;durationMinute=n;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SA2_LA_01_E_2014-15-1
+		:SA2_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SA2_LA_01_E"@hu ;
+                     oloud:courseName "Számítógép architektúrák alapjai II."@hu ;
+                     oloud:courseSubject :NAISA2SAED ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :János_Sicz-Mesziár ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=18;minute=45;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SA2_LA_02_E_PRUC_2014-15-1
+		:SA2_LA_02_E_PRUC_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SA2_LA_02_E_PRUC"@hu ;
+                     oloud:courseName "Számítógép architektúrák alapjai II."@hu ;
+                     oloud:courseSubject :NAISA2SAED ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :János_Sicz-Mesziár ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=20;minute=25;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/GYUJTO_2014-15-1
+		:GYUJTO_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "GYUJTO"@hu ;
+                     oloud:courseName "Számítógép architektúrák alapjai II."@hu ;
+                     oloud:courseSubject :NAISA2SAND ;
+                     oloud:locatedAt :PC_Labor_220 ;
+                     oloud:courseTeacher :József_Kelemen ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=2;durationMinute=35;dayofweek=2> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SA2_EA_2014-15-1
+		:SA2_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SA2_EA"@hu ;
+                     oloud:courseName "Számítógép architektúrák alapjai II."@hu ;
+                     oloud:courseSubject :NAISA2SAND ;
+                     oloud:locatedAt :F05 ;
+                     oloud:courseTeacher :Péter_Broczkó ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SA2_LA_01_2014-15-1
+		:SA2_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SA2_LA_01"@hu ;
+                     oloud:courseName "Számítógép architektúrák alapjai II."@hu ;
+                     oloud:courseSubject :NAISA2SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Zsolt_Sziklai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SA2_LA_02_2014-15-1
+		:SA2_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SA2_LA_02"@hu ;
+                     oloud:courseName "Számítógép architektúrák alapjai II."@hu ;
+                     oloud:courseSubject :NAISA2SAND ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Zsolt_Sziklai ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SA2_LA_03_2014-15-1
+		:SA2_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SA2_LA_03"@hu ;
+                     oloud:courseName "Számítógép architektúrák alapjai II."@hu ;
+                     oloud:courseSubject :NAISA2SAND ;
+                     oloud:locatedAt :PC_Labor_113 ;
+                     oloud:courseTeacher :István_Lovas ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=09;minute=50;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SM1_EA_LEV_2014-15-1
+		:SM1_EA_LEV_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SM1_EA_LEV"@hu ;
+                     oloud:courseName "Szolgáltatásmenedzsment"@hu ;
+                     oloud:courseSubject :NAISM1PALM ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Károly_Farkas ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=4;durationMinute=20;dayofweek=6> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SP1_EA_01_MSC_2014-15-1
+		:SP1_EA_01_MSC_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SP1_EA_01_MSC"@hu ;
+                     oloud:courseName "Szoftverfejlesztés párhuzamos és elosztott környezetben"@hu ;
+                     oloud:courseSubject :NAISP1CANM ;
+                      
+                     oloud:courseTeacher :Zoltán_Vámossy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SP1_LA_01_MSC_2014-15-1
+		:SP1_LA_01_MSC_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SP1_LA_01_MSC"@hu ;
+                     oloud:courseName "Szoftverfejlesztés párhuzamos és elosztott környezetben"@hu ;
+                     oloud:courseSubject :NAISP1CANM ;
+                      
+                     oloud:courseTeacher :Zoltán_Vámossy ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=14;minute=25;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SP1_EA_01_2014-15-1
+		:SP1_EA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SP1_EA_01"@hu ;
+                     oloud:courseName "Software Development in Parallel and Distributed Enviroment"@hu ;
+                     oloud:courseSubject :NAISP1CENM ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Miklós_Kozlovszky ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SP1_LA_01_2014-15-1
+		:SP1_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SP1_LA_01"@hu ;
+                     oloud:courseName "Software Development in Parallel and Distributed Enviroment"@hu ;
+                     oloud:courseSubject :NAISP1CENM ;
+                     oloud:locatedAt :PC_Labor_114 ;
+                     oloud:courseTeacher :Miklós_Kozlovszky ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=17;minute=55;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SR1_EA_01_ROB_2014-15-1
+		:SR1_EA_01_ROB_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SR1_EA_01_ROB"@hu ;
+                     oloud:courseName "Szenzorok és robotlátás I."@hu ;
+                     oloud:courseSubject :NAISR1SUND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Szabolcs_Sergyán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/SR1_LA_01_ROB_2014-15-1
+		:SR1_LA_01_ROB_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "SR1_LA_01_ROB"@hu ;
+                     oloud:courseName "Szenzorok és robotlátás I."@hu ;
+                     oloud:courseSubject :NAISR1SUND ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Szabolcs_Sergyán ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=1;durationMinute=40;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/ST1_EA_E_2014-15-1
+		:ST1_EA_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "ST1_EA_E"@hu ;
+                     oloud:courseName "Szoftvertechnológia I."@hu ;
+                     oloud:courseSubject :NAIST1SAED ;
+                     oloud:locatedAt :F07 ;
+                     oloud:courseTeacher :Krisztina_Erdélyi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=45;durationMinute=n;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/ST1_EA_2014-15-1
+		:ST1_EA_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "ST1_EA"@hu ;
+                     oloud:courseName "Szoftvertechnológia I."@hu ;
+                     oloud:courseSubject :NAIST1SAND ;
+                     oloud:locatedAt :F01 ;
+                     oloud:courseTeacher :József_Tick ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=12;minute=35;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/ST1_EA_ENG_2014-15-1
+		:ST1_EA_ENG_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "ST1_EA_ENG"@hu ;
+                     oloud:courseName "Software Engineering I."@hu ;
+                     oloud:courseSubject :NAIST1SEND ;
+                     oloud:locatedAt :F04 ;
+                     oloud:courseTeacher :Krisztina_Erdélyi ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=1;durationMinute=40;dayofweek=4> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/TA1_LA_01_V_2014-15-1
+		:TA1_LA_01_V_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "TA1_LA_01_V"@hu ;
+                     oloud:courseName "Tesztautomatizálás alapjai"@hu ;
+                     oloud:courseSubject :NAITA1SVNC ;
+                     oloud:locatedAt :PC_Labor_214 ;
+                     oloud:courseTeacher :Adalbert_Kovács ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=05;durationHour=1;durationMinute=35;dayofweek=5> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/VI1_EA_KER_2014-15-1
+		:VI1_EA_KER_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "VI1_EA_KER"@hu ;
+                     oloud:courseName "Vállalati információs rendszerek"@hu ;
+                     oloud:courseSubject :NAIVI1SAND ;
+                     oloud:locatedAt :F06 ;
+                     oloud:courseTeacher :Péter_Holyinka ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=15;minute=20;durationHour=1;durationMinute=40;dayofweek=5> ;
+                     oloud:courseType :Lecture ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/VI2_LA_01_E_2014-15-1
+		:VI2_LA_01_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "VI2_LA_01_E"@hu ;
+                     oloud:courseName "Vállalati információs rendszerek modellezése"@hu ;
+                     oloud:courseSubject :NAIVI2SAED ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Balázs_Schmuck ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/VI2_LA_02_E_2014-15-1
+		:VI2_LA_02_E_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "VI2_LA_02_E"@hu ;
+                     oloud:courseName "Vállalati információs rendszerek modellezése"@hu ;
+                     oloud:courseSubject :NAIVI2SAED ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Balázs_Schmuck ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=16;minute=15;durationHour=1;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/VI2_LA_01_2014-15-1
+		:VI2_LA_01_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "VI2_LA_01"@hu ;
+                     oloud:courseName "Vállalati információs rendszerek modellezése"@hu ;
+                     oloud:courseSubject :NAIVI2SAND ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Balázs_Schmuck ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/VI2_LA_02_2014-15-1
+		:VI2_LA_02_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "VI2_LA_02"@hu ;
+                     oloud:courseName "Vállalati információs rendszerek modellezése"@hu ;
+                     oloud:courseSubject :NAIVI2SAND ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Balázs_Schmuck ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=3> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/VI2_LA_03_2014-15-1
+		:VI2_LA_03_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "VI2_LA_03"@hu ;
+                     oloud:courseName "Vállalati információs rendszerek modellezése"@hu ;
+                     oloud:courseSubject :NAIVI2SAND ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Károly_Szommer ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=10;minute=45;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/VI2_LA_04_2014-15-1
+		:VI2_LA_04_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "VI2_LA_04"@hu ;
+                     oloud:courseName "Vállalati információs rendszerek modellezése"@hu ;
+                     oloud:courseSubject :NAIVI2SAND ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Károly_Szommer ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=13;minute=30;durationHour=2;durationMinute=35;dayofweek=4> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/VI2_LA_05_2014-15-1
+		:VI2_LA_05_2014-15-1 rdf:type oloud:Course ,
+                              owl:NamedIndividual ;
+                     oloud:courseCode "VI2_LA_05"@hu ;
+                     oloud:courseName "Vállalati információs rendszerek modellezése"@hu ;
+                     oloud:courseSubject :NAIVI2SAND ;
+                     oloud:locatedAt :PC_Labor_115 ;
+                     oloud:courseTeacher :Károly_Szommer ;
+                     oloud:courseTime <http://lod.nik.uni-obuda.hu/data/CourseTime;courseTerm=2014Fall;hour=08;minute=00;durationHour=2;durationMinute=35;dayofweek=1> ;
+                     oloud:courseType :Lab ;
+                     oloud:courseTerm :2014Fall .
+
+
+

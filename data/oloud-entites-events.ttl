@@ -1,0 +1,126 @@
+@prefix : <http://lod.nik.uni-obuda.hu/data/> .
+@prefix oloud: <http://lod.nik.uni-obuda.hu/oloud-base#> .
+@prefix loc: <http://lod.nik.uni-obuda.hu/oloud-indoor#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix part: <http://purl.org/vocab/participation/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@base <http://lod.nik.uni-obuda.hu/data/> .
+
+###  http://lod.nik.uni-obuda.hu/data/E-kodolas-oraja
+			:E-kodolas-oraja rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "Kódolás Órája"@hu ;
+			    rdfs:comment "A „Számítástechnika Oktatásának Hetén” (Computer Science Education Week - Egyesült Államokbeli kezdeményezés) világszerte több helyen is megrendezik a Kódolás Óráját (Hour of Cod..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=12;day=14> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-12-14/kodolas-oraja> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-cinti
+			:E-cinti rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "CINTI"@hu ;
+			    rdfs:comment "16th IEEE International Symposium on Computational Intelligence and Informatics. További információk: http://conf.uni-obuda.hu/cinti2015/  2015. november 19, csütörtök  - 2015. november ..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=11;day=19> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-11-19/cinti> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-tdk-2015-oszi-felev
+			:E-tdk-2015-oszi-felev rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "TDK 2015. őszi félév"@hu ;
+			    rdfs:comment "A XLII. Tudományos Diákköri Konferenciát 2015. november 18-án (szerdán) tartjuk.   A konferenciára 2015. október 28. (szerda) délig (1200 óra) lehet jelentkezni a Kari Tudományos Diákkör..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=11;day=18> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-11-18/tdk-2015-oszi-felev> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-webconf-2015
+			:E-webconf-2015 rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "Magyarországi Web Konferencia 2015"@hu ;
+			    rdfs:comment "Az egész napos konferencia célja, hogy kezdőknek és profiknak egyaránt útmutatást nyújtson a legújabb webes trendek és technológiák útvesztőjében, legyenek bár fejlesztők, grafikusok..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=11;day=14> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-11-14/webconf-2015> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-biomatika-intezet-megnyitoja
+			:E-biomatika-intezet-megnyitoja rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "Biomatika Intézet megnyitója"@hu ;
+			    rdfs:comment "Biomatika Intézet sajtótájékoztatóval egybekötött ünnepélyes megnyitója az Óbudai Egyetemen  9:00 - 9:30  Regisztráció   9:30 - 9:40  Köszöntő   9:45 - 9:55  Bevezető (Dr. Kozlovszky..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=11;day=12> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-11-12/biomatika-intezet-megnyitoja> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-kockanap-2015
+			:E-kockanap-2015 rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "Kockanap 2015"@hu ;
+			    rdfs:comment "Jelentkezési időszak: október 1-30    Technológia független megvalósítás  (Nem c# és .net specifikus a verseny!) 3 fős csapatok.  2015. november 06, péntek  - 2015. november 07, szombat Ó..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=11;day=06> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-11-06/kockanap-2015> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-magyar-tudomany-unnepe
+			:E-magyar-tudomany-unnepe rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "Magyar Tudomány Ünnepe rendezvénysorozat az Óbudai Egyetemen"@hu ;
+			    rdfs:comment "Az Országgyűlés a tudomány társadalomban betöltött szerepét kiemelkedően fontosnak, a tudomány művelése és fejlesztése érdekében végzett tevékenységet elismerésre és kiemelkedő ..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=11;day=02> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-11-02/magyar-tudomany-unnepe> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-ieee-smc
+			:E-ieee-smc rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "IEEE SMC"@hu ;
+			    rdfs:comment "smc2015.org  2015. október 09, péntek  - 2015. október 12, hétfő"@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=10;day=09> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-10-09/ieee-smc> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-kutatok-ejszakaja-2015
+			:E-kutatok-ejszakaja-2015 rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "Kutatók Éjszakája 2015 - az Óbudai Egyetemen"@hu ;
+			    rdfs:comment "A Kutatók Éjszakáján, szeptember 25-én az Óbudai Egyetem több mint 120 féle programmal várja az érdeklődőket valamennyi kampuszán. Az izgalmas, érdekes, változatos programok között k..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=09;day=25> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-09-25/kutatok-ejszakaja-2015> .
+			
+
+
+###  http://lod.nik.uni-obuda.hu/data/E-hightech-pub
+			:E-hightech-pub rdf:type oloud:Event ,
+				     owl:NamedIndividual ;
+			    rdfs:label "HighTech Pub"@hu ;
+			    rdfs:comment "Szeretettel meghívunk a 2015. szeptember 18-án 12:00 órától kezdődő HighTech Pub eseményre.  Az összejövetel két, egymást követő részből áll. Elsőként pitch jellegű előadások ..."@hu ;
+			    oloud:locatedAt :OE_Main_Building ;
+			    event:time <http://lod.nik.uni-obuda.hu/data/UnitDayInstant;year=2015;month=09;day=18> ; 
+			    rdfs:seeAlso <http://www.nik.uni-obuda.hu/hu/esemenyek/2015-09-18/hightech-pub> .
+			
+
+

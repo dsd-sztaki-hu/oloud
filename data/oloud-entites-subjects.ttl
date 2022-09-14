@@ -1,0 +1,561 @@
+@prefix : <http://lod.nik.uni-obuda.hu/data/> .
+@prefix oloud: <http://lod.nik.uni-obuda.hu/oloud-base#> .
+@prefix loc: <http://lod.nik.uni-obuda.hu/oloud-indoor#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix part: <http://purl.org/vocab/participation/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@base <http://lod.nik.uni-obuda.hu/data/> .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIAB0SAED
+			:NAIAB0SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "4.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerkednek az információ-feldolgozó rendszerek elvi alapjaival. megvalósításával. a legfontosabb adatbázis-kezelő rendszerekkel. továbbá a korszerű adatkezelési módszerekkel. A folyamat-szemléletű információ-feldolgozás. Keresés. Szekvenciális. hierarchikus. hálós file struktúrák. Nem konzekúción alapuló struktúrák. Indexelt struktúrák. Indexek felépítése és használata. A direkt szervezés. Hashing algoritmusok. A szinonimok kezelése. Az adatbázis-szemléletű információ-feldolgozás. Adatmodellezés. Az adatmodellezés szintjei. Mapping. Az adatbázis felügyelő. DDL. DML. Konkurens folyamatok. DCL. A főbb adatbázis-kezelő modellek. A hierarchikus modell. Az IMS. A hálós modell. A DBTG report. Az IDMS. A relációs modell elmélete és használata. Anomáliák. Normalizálás. A relációs algebra. A relációs kalkulus. Biztos kifejezések. Lekérdező rendszerek. Továbbfejlesztett rendszerek. Osztott adatbázis kezelő rendszerek. Konzisztencia. koherencia. Adatbázis architektúrák. Kliens- szerver rendszerek. Tárolt eljárások. Triggerek. Adatbiztonság. Új igények. Adatfolyamok. OLAP. Adattárházak. Tudásfeltárás. A fentiek gyakorlása az SQL nyelv használatával."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/adatbazisok-0" ;
+				    oloud:subjectCode "NAIAB0SAED" ;
+				    oloud:subjectName "Adatbázisok"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Domonkos_Tikk ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás II,"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIAB0SAND
+			:NAIAB0SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "4.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerkednek az információ-feldolgozó rendszerek elvi alapjaival, megvalósításával, a legfontosabb adatbázis-kezelő rendszerekkel, továbbá a korszerű adatkezelési módszerekkel.A folyamat-szemléletű információ-feldolgozás. Keresés. Szekvenciális, hierarchikus, hálós file struktúrák. Nem konzekúción alapuló struktúrák. Indexelt struktúrák. Indexek felépítése és használata. A direkt szervezés. Hashing algoritmusok. A szinonimok kezelése.Az adatbázis-szemléletű információ-feldolgozás. Adatmodellezés. Az adatmodellezés szintjei. Mapping. Az adatbázis felügyelő. DDL. DML. Konkurens folyamatok. DCL. A főbb adatbázis-kezelő modellek. A hierarchikus modell. Az IMS. A hálós modell. A DBTG report. Az IDMS. A relációs modell elmélete és használata. Anomáliák. Normalizálás. A relációs algebra. A relációs kalkulus. Biztos kifejezések. Lekérdező rendszerek. Továbbfejlesztett rendszerek. Osztott adatbázis kezelő rendszerek. Konzisztencia, koherencia. Adatbázis architektúrák. Kliens- szerver rendszerek. Tárolt eljárások. Triggerek. Adatbiztonság. Új igények. Adatfolyamok. OLAP. Adattárházak. Tudásfeltárás. A fentiek gyakorlása az SQL nyelv használatával."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/adatbazisok-0" ;
+				    oloud:subjectCode "NAIAB0SAND" ;
+				    oloud:subjectName "Adatbázisok"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Domonkos_Tikk ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás II."@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIDR0SAED
+			:NAIDR0SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "3.00" ;
+				    oloud:subjectDescription "A tárgy célja a hallgatók megismertetése a műszaki informatikus számára szükséges digitális elektronikai alapismeretekkel. a digitális rendszerek legfontosabb építőelemeivel. a logikai áramkörcsaládok fejlődési tendenciáival. a logikai áramkörcsaládok és az összetett funkciók programozott megvalósítására használható építőelemek alkalmazástechnikai kérdéseivel. Tematika: A tranzisztorok kapcsolóüzeme. Logikai áramkörök általános jellemzői. Fontosabb logikai áramkörcsaládok alapáramkörei. Logikai áramkörcsaládok alkalmazása. Logikai áramkörcsaládok szimulációs vizsgálata. Jelgeneráló és jelformáló áramkörök. Tároló alapáramkörök. tároló cellák. Digitális rendszerek zaj és zavarproblémái. Integrált áramkörök gyártástechnikai alapfogalmai."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/digitalis-rendszerek" ;
+				    oloud:subjectCode "NAIDR0SAED" ;
+				    oloud:subjectName "Digitális rendszerek"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :András_Molnár ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Villamosságtan"@hu, "Digitális technika"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIDR0SAND
+			:NAIDR0SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "3.00" ;
+				    oloud:subjectDescription "A tárgy célja a hallgatók megismertetése a műszaki informatikus számára szükséges digitális elektronikai alapismeretekkel, a digitális rendszerek legfontosabb építőelemeivel, a logikai áramkörcsaládok fejlődési tendenciáival, a logikai áramkörcsaládok és az összetett funkciók programozott megvalósítására használható építőelemek alkalmazástechnikai kérdéseivel. Tematika: A tranzisztorok kapcsolóüzeme, Logikai áramkörök általános jellemzői, Fontosabb logikai áramkörcsaládok alapáramkörei, Logikai áramkörcsaládok alkalmazása, Logikai áramkörcsaládok szimulációs vizsgálata, Jelgeneráló és jelformáló áramkörök, Tároló alapáramkörök, tároló cellák, Digitális rendszerek zaj és zavarproblémái, Integrált áramkörök gyártástechnikai alapfogalmai."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/digitalis-rendszerek" ;
+				    oloud:subjectCode "NAIDR0SAND" ;
+				    oloud:subjectName "Digitális rendszerek"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :András_Molnár ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Villamosságtan"@hu, "Digitális technika"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIDT0SAED
+			:NAIDT0SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "4.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerik a digitális rendszerek (logikai hálózatok) elvi működését. leírásuk alapvető módszereit. példákon keresztül tanulmányozzák a logikai hálózatok működését. betekintést nyernek a logikai hálózatok tervezésébe. az előadásokon bemutatott feladatmegoldásokon és demonstrációkon keresztül megismerik a számítógépes szimuláció módszereit. Tematika: A Boole-algebra alapjai. Kombinációs hálózatok leírási módjai. Kombinációs hálózatok tervezése és vizsgálata. Ideális és valódi építőelemek. a valódi építőelemek jellemzői. Programozható kombinációs hálózatok. Sorrendi hálózatok. Szinkron hálózatok tervezése és vizsgálata. Tipikus szinkron hálózatok. Aszinkron hálózatok tervezésének és vizsgálatának alapjai."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/digitalis-technika" ;
+				    oloud:subjectCode "NAIDT0SAED" ;
+				    oloud:subjectName "Digitális technika"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :András_Molnár ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Bevezetés a számításelméletbe I,"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIDT0SAND
+			:NAIDT0SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "4.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerik a digitális rendszerek (logikai hálózatok) elvi működését, leírásuk alapvető módszereit, példákon keresztül tanulmányozzák a logikai hálózatok működését, betekintést nyernek a logikai hálózatok tervezésébe, az előadásokon bemutatott feladatmegoldásokon és demoNAIrációkon keresztül megismerik a számítógépes szimuláció módszereit. Tematika: A Boole-algebra alapjai, Kombinációs hálózatok leírási módjai, Kombinációs hálózatok tervezése és vizsgálata, Ideális és valódi építőelemek, a valódi építőelemek jellemzői, Programozható kombinációs hálózatok, Sorrendi hálózatok, Szinkron hálózatok tervezése és vizsgálata, Tipikus szinkron hálózatok, Aszinkron hálózatok tervezésének és vizsgálatának alapjai."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/digitalis-technika" ;
+				    oloud:subjectCode "NAIDT0SAND" ;
+				    oloud:subjectName "Digitális technika"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :András_Molnár ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Bevezetés a számításelméletbe I."@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIEL0SAED
+			:NAIEL0SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "4.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerik az analóg jelfeldolgozás legfontosabb eszközeit. területeit. az alapvető elektronikai alkatrészek elvi működését. tulajdonságait. jellegzetes alkalmazásait. Betekintést nyernek a számítógéppel segített elektronikai tervezésbe. elsajátítják a méréstechnika alapjait. Tematika: Az analóg jelek erősítésének alapfogalmai. A műveleti erősítő. A visszacsatolás elvi alapjai. Műveleti erősítők tipikus lineáris és nemlineáris alkalmazásai. Az elektronikus áramkörök alapeszközeinek működése. jellemzői. üzemmódjai. Elektronikus áramkörök szimulációs vizsgálata. Méréstechnikai alapismeretek. Mérőműszerek és mérőeszközök."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/elektronika" ;
+				    oloud:subjectCode "NAIEL0SAED" ;
+				    oloud:subjectName "Elektronika"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :László_Nádai ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Villamosságtan"@hu, "Digitális technika"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIEL0SAND
+			:NAIEL0SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "4.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerik az analóg jelfeldolgozás legfontosabb eszközeit, területeit, az alapvető elektronikai alkatrészek elvi működését, tulajdonságait, jellegzetes alkalmazásait. Betekintést nyernek a számítógéppel segített elektronikai tervezésbe, elsajátítják a méréstechnika alapjait. Tematika: Az analóg jelek erősítésének alapfogalmai, A műveleti erősítő, A visszacsatolás elvi alapjai, Műveleti erősítők tipikus lineáris és nemlineáris alkalmazásai, Az elektronikus áramkörök alapeszközeinek működése, jellemzői, üzemmódjai, Elektronikus áramkörök szimulációs vizsgálata, Méréstechnikai alapismeretek, Mérőműszerek és mérőeszközök."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/elektronika" ;
+				    oloud:subjectCode "NAIEL0SAND" ;
+				    oloud:subjectName "Elektronika"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :László_Nádai ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Villamosságtan"@hu, "Digitális technika"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIIK1SAED
+			:NAIIK1SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "Irodalomkutatás. A rendelkezésre álló tudományos weboldalak, publikus tudományos adatbázisok áttekintése. Projekt munkaterv kidolgozásának fázisai, az egyes fázisok részletezése. A munkaterv tartalmi és formai követelményei. Prezentációs technikák, a prezentációs anyag felépítése, formája és tartalma. Eredmények publikálása és prezentálása."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/infokommunikacios-technikak" ;
+				    oloud:subjectCode "NAIIK1SAED" ;
+				    oloud:subjectName "Infokommunikációs technikák"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :László_Nádai ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Matematika Szigorlat"@hu, "Szakmai Szigorlat"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIIK1SAND
+			:NAIIK1SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "Irodalomkutatás. A rendelkezésre álló tudományos weboldalak, publikus tudományos adatbázisok áttekintése. Projekt munkaterv kidolgozásának fázisai, az egyes fázisok részletezése. A munkaterv tartalmi és formai követelményei. Prezentációs technikák, a prezentációs anyag felépítése, formája és tartalma. Eredmények publikálása és prezentálása."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/infokommunikacios-technikak" ;
+				    oloud:subjectCode "NAIIK1SAND" ;
+				    oloud:subjectName "Infokommunikációs technikák"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :László_Nádai ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Matematika Szigorlat"@hu, "Szakmai Szigorlat"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIMP1SAED
+			:NAIMP1SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "Az objektum-orientált paradigma és a hozzákapcsolódó technológiák bemutatása a Java programozási nyelv segítségével. Objektumok (adattagok. konstruktorok. metódusok) és osztályok létrehozása. használata. Láthatóság és egységbezárás fogalma és használata. Öröklés megvalósítása. Hozzáférési kategóriák. Névterek (csomagok) használata. Absztrakt osztályok és interfészek. A rendszerben levő osztálykönyvtár használata. Kivételkezelés. Alkalmazások készítése."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/modern-programozasi-nyelv" ;
+				    oloud:subjectCode "NAIMP1SAED" ;
+				    oloud:subjectName "Modern programozási nyelv"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Sándor_Szénási ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás II,"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIMP1SAND
+			:NAIMP1SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "Az objektum-orientált paradigma és a hozzákapcsolódó technológiák bemutatása a Java programozási nyelv segítségével. Objektumok (adattagok, koNAIruktorok, metódusok) és osztályok létrehozása, használata. Láthatóság és egységbezárás fogalma és használata. Öröklés megvalósítása. Hozzáférési kategóriák. Névterek (csomagok) használata. Absztrakt osztályok és interfészek. A rendszerben levő osztálykönyvtár használata. Kivételkezelés. Alkalmazások készítése."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/modern-programozasi-nyelv" ;
+				    oloud:subjectCode "NAIMP1SAND" ;
+				    oloud:subjectName "Modern programozási nyelv"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Sándor_Szénási ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás II."@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIOP0SAED
+			:NAIOP0SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "5.00" ;
+				    oloud:subjectDescription "Az előadásokon a hallgatók megismerkedhetnek az operációs rendszerek fő feladataival. az egyes feladatokat megvalósító komponensek fejlődésével és a jelenleg elterjedt operációs rendszerekben (Windows. Unix verziók. Linux) alkalmazott megoldásokkal. A tárgyhoz kapcsolódó laborfoglalkozások során a hallgatók az operációs rendszerek parancssoros üzemeltetésének. adminisztrálásának alapjait ismerhetik meg. A laborfoglalkozások elsődleges platformja a Linux rendszer. azonban az egyes területeken a Windows rendszerben alkalmazott megoldások is bemutatásra kerülnek. Főbb kompetenciák: operációs rendszerek architektúrája. főbb operációs rendszeri funkciók és modulok (folyamat- és szálkezelés. ütemezés. memóriakezelés. I/O- és állománykezelés. folyamatok közötti kommunikáció). a fejlődés mozgatórugói. a csatoló felületek szabványosításának szükségessége és lehetőségei. a jelenlegi széles körben használt operációs rendszerekben alkalmazott megoldások."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/operacios-rendszerek" ;
+				    oloud:subjectCode "NAIOP0SAED" ;
+				    oloud:subjectName "Operációs rendszerek"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :András_Rövid ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Informatikai rendszerek alapjai"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIOP0SAND
+			:NAIOP0SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "5.00" ;
+				    oloud:subjectDescription "Az előadásokon a hallgatók megismerkedhetnek az operációs rendszerek fő feladataival, az egyes feladatokat megvalósító komponensek fejlődésével és a jelenleg elterjedt operációs rendszerekben (Windows, Unix verziók, Linux) alkalmazott megoldásokkal. A tárgyhoz kapcsolódó laborfoglalkozások során a hallgatók az operációs rendszerek parancssoros üzemeltetésének, adminisztrálásának alapjait ismerhetik meg. A laborfoglalkozások elsődleges platformja a Linux rendszer, azonban az egyes területeken a Windows rendszerben alkalmazott megoldások is bemutatásra kerülnek. Főbb kompetenciák: operációs rendszerek architektúrája, főbb operációs rendszeri funkciók és modulok (folyamat- és szálkezelés, ütemezés, memóriakezelés, I/O- és állománykezelés, folyamatok közötti kommunikáció), a fejlődés mozgatórugói, a csatoló felületek szabványosításának szükségessége és lehetőségei, a jelenlegi széles körben használt operációs rendszerekben alkalmazott megoldások."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/operacios-rendszerek" ;
+				    oloud:subjectCode "NAIOP0SAND" ;
+				    oloud:subjectName "Operációs rendszerek"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :András_Rövid ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Informatikai rendszerek alapjai"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIPR2SAED
+			:NAIPR2SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "6.00" ;
+				    oloud:subjectDescription "Programozási paradigmák áttekintése. Konstruktorok az öröklésben. Metódusok elrejtése. Öröklés és értékadás. Polimorfizmus. Absztrakt osztály és interfész. Iterátorok. Komponensek. Operátor overloading. Kivételkezelés. Generikus osztályok. Rendezési algoritmusok. Dinamikus tömb. Egyszerű és egyirányú rendezett láncolt lista. A láncolt lista egyéb megvalósításai. Sor és verem megvalósítása. Bináris keresőfa. Piros-fekete fa. B-fa. Kupacok. Irányított és irányítatlan gráfok. Feszítőfák. Kruskal algoritmus. Gráfbejárások. Útkeresés. Összefüggő komponensek keresése. Topológiai rendezés. Hasító táblázatok. Haladó rendezések."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/programozas-ii" ;
+				    oloud:subjectCode "NAIPR2SAED" ;
+				    oloud:subjectName "Programozás II."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Szabolcs_Sergyán ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás I,"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIPR2SAND
+			:NAIPR2SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "6.00" ;
+				    oloud:subjectDescription "Programozási paradigmák áttekintése. KoNAIruktorok az öröklésben. Metódusok elrejtése. Öröklés és értékadás. Polimorfizmus. Absztrakt osztály és interfész. Iterátorok. Komponensek. Operátor overloading. Kivételkezelés. Generikus osztályok.Rendezési algoritmusok. Dinamikus tömb. Egyszerű és egyirányú rendezett láncolt lista. A láncolt lista egyéb megvalósításai. Sor és verem megvalósítása. Bináris keresőfa. Piros-fekete fa. B-fa. Kupacok. Irányított és irányítatlan gráfok. Feszítőfák, Kruskal algoritmus. Gráfbejárások. Útkeresés. Összefüggő komponensek keresése. Topológiai rendezés. Hasító táblázatok. Haladó rendezések."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/programozas-ii" ;
+				    oloud:subjectCode "NAIPR2SAND" ;
+				    oloud:subjectName "Programozás II."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Szabolcs_Sergyán ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás I."@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIPR3SAED
+			:NAIPR3SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "3.00" ;
+				    oloud:subjectDescription "OOP ismétlés és gyakorlás. A .NET Framework. felügyelt kód. köztes kód. natív kód. memóriakezelés. automatikus szemétgyűjtés. Osztálykönyvtár. System.* névterek. legfontosabb alaposztályok és -komponensek. Egyszerű vezérlők használata. eseménykezelők. Grafikus felhasználói felület megtervezése. komponensek elrendezése. MDI alkalmazás készítése. Delegált és esemény. Fájlok. streamek típusai különböző médiákhoz. használatuk szinkron és aszinkron írásra. valamint olvasásra. Grafikai lehetőségek. System.Drawing névtér. Időzítő használatán alapuló feladatok megoldása. Dll használat és készítés."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/programozas-iii" ;
+				    oloud:subjectCode "NAIPR3SAED" ;
+				    oloud:subjectName "Programozás III."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Zoltán_Vámossy ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás II,"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIPR3SAND
+			:NAIPR3SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "3.00" ;
+				    oloud:subjectDescription "OOP ismétlés és gyakorlás. A .NET Framework, felügyelt kód, köztes kód, natív kód, memóriakezelés, automatikus szemétgyűjtés. Osztálykönyvtár, System.* névterek, legfontosabb alaposztályok és -komponensek. Egyszerű vezérlők használata, eseménykezelők. Grafikus felhasználói felület megtervezése, komponensek elrendezése, MDI alkalmazás készítése. Delegált és esemény. Fájlok, streamek típusai különböző médiákhoz, használatuk szinkron és aszinkron írásra, valamint olvasásra. Grafikai lehetőségek, System.Drawing névtér. Időzítő használatán alapuló feladatok megoldása. Dll használat és készítés."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/programozas-iii" ;
+				    oloud:subjectCode "NAIPR3SAND" ;
+				    oloud:subjectName "Programozás III."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Zoltán_Vámossy ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás II."@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAISA1SAED
+			:NAISA1SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "A tantárgy keretében a hallgatók megismerkednek az utasításszintű architektúrákkal. a hagyományos Neumann számítógépek mikroarchitektúrájával. A tárgy szemléletmódja a tervezési tér koncepcióra épít. és előtérbe helyezi a konkrét megvalósítási példák és trendek bemutatását. A főbb kompetenciák: Számítási modellek. programnyelvek. architektúrák. Adatalapú számítási modell. Neumann féle számítási modell. az adatfolyam számítási modell. A számítógép-architektúra fogalma és szintjei. ISA. A memóriatér és a regisztertér. Adattípusok. műveletek. operandus-típusok. utasítás-formátumok. címzési módok. A felhasználó által kezelhető állapot-jellemzők. Műveletvégző egység. műveletvégzés. A centralizált és decentralizált vezérlés. A buszrendszer alapjai. az átvitel szervezési alternatívái. jelrendszerek. a buszok fajtái. párhuzamos/soros buszok. párhuzamos buszok átviteli sebességhatára. legfontosabb párhuzamos és soros buszok főbb jellemzői (FSB. PCI. PCIe. HT. QPI). A programozott I/O. a memóriában leképezett I/O. DMA. I/O csatorna. A megszakítási rendszer. A DRAM fogalma. a DRAM lapkák típusai (SDRAM. DDR. DDR2. DDR3). A –DIMM-ek jellemzői (UDIMM. RDIMM. ECC). Egy hipotetikus számítógép felépítése. működése."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szamitogep-architekturak-alapjai-i" ;
+				    oloud:subjectCode "NAISA1SAED" ;
+				    oloud:subjectName "Számítógép architektúrák alapjai I."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Péter_Broczkó ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Digitális rendszerek"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAISA1SAND
+			:NAISA1SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "A tantárgy keretében a hallgatók megismerkednek az utasításszintű architektúrákkal, a hagyományos Neumann számítógépek mikroarchitektúrájával. A tárgy szemléletmódja a tervezési tér koncepcióra épít, és előtérbe helyezi a konkrét megvalósítási példák és trendek bemutatását. A főbb kompetenciák: Számítási modellek, programnyelvek, architektúrák. Adatalapú számítási modell, Neumann féle számítási modell, az adatfolyam számítási modell. A számítógép-architektúra fogalma és szintjei. ISA. A memóriatér és a regisztertér. Adattípusok, műveletek, operandus-típusok, utasítás-formátumok, címzési módok. A felhasználó által kezelhető állapot-jellemzők. Műveletvégző egység, műveletvégzés. A centralizált és decentralizált vezérlés. A buszrendszer alapjai, az átvitel szervezési alternatívái, jelrendszerek, a buszok fajtái, párhuzamos/soros buszok, párhuzamos buszok átviteli sebességhatára, legfontosabb párhuzamos és soros buszok főbb jellemzői (FSB, PCI, PCIe, HT, QPI). A programozott I/O, a memóriában leképezett I/O, DMA, I/O csatorna. A megszakítási rendszer. A DRAM fogalma, a DRAM lapkák típusai (SDRAM, DDR, DDR2, DDR3). A –DIMM-ek jellemzői (UDIMM, RDIMM, ECC). Egy hipotetikus számítógép felépítése, működése."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szamitogep-architekturak-alapjai-i" ;
+				    oloud:subjectCode "NAISA1SAND" ;
+				    oloud:subjectName "Számítógép architektúrák alapjai I."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Péter_Broczkó ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Digitális rendszerek"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAISA2SAED
+			:NAISA2SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "5.00" ;
+				    oloud:subjectDescription "A tantárgy keretében a hallgatók megismerkednek a párhuzamos architektúra osztályok közül a futószalag processzorokkal. valamint a szuperskalár és a VLIW processzorokkal és rendszer-architektúrájával. A tárgy szemléletmódja a tervezési tér koncepcióra épít és előtérbe helyezi a konkrét megvalósítási példák és trendek bemutatását. A főbb kompetenciák: A kihasználható párhuzamosság szintjei. A processzorok Flynn-féle és korszerű osztályozása. Az adat-. a vezérlés és az erőforrás-függőségek és kezelésük főbb eljárásai. valamint a szekvenciális konzisztencia megőrzése. 1.. 2. és 3. generációs szuperskalár processzorok. ISA kiterjesztések (MMX. SSE. stb.). A gyorsítótárak szervezési alternatívái. 2-3 szintes gyorsítótár hierarchiák. optimális méretek. tendenciák. példák. VLIW és EPIC architektúrák. Szál szinten párhuzamos. durván és finoman szemcsézett valamint SMT architektúrák. Folyamatszinten párhuzamos architektúrák. Alaplapok. A gyakorlatok tartalma: Ismert processzorok architekturális áttekintése. Regiszterkészlet. utasításkészlet megismerése. Gépi szintű programok futási mechanizmusai. kapcsolatuk az operációs rendszerekkel. Fordítóprogramok általános jellemzői. A futtatható állományok struktúrája (.COM és EXE file-ok felépítése). Egyszerű. szekvenciális programok készítése. iterációk. input/output műveletek megvalósítása. Számítások. adatkonverziók. szimulációk készítése. Periférikus eszközök „elérése”. programozása (grafikus elemek megjelenítése. soros. párhuzamos portok kezelése)."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szamitogep-architekturak-alapjai-ii" ;
+				    oloud:subjectCode "NAISA2SAED" ;
+				    oloud:subjectName "Számítógép architektúrák alapjai II."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Péter_Broczkó ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Számítógép architektúrák alapjai I,"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAISA2SAND
+			:NAISA2SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "5.00" ;
+				    oloud:subjectDescription "A tantárgy keretében a hallgatók megismerkednek a párhuzamos architektúra osztályok közül a futószalag processzorokkal, valamint a szuperskalár és a VLIW processzorokkal és rendszer-architektúrájával. A tárgy szemléletmódja a tervezési tér koncepcióra épít és előtérbe helyezi a konkrét megvalósítási példák és trendek bemutatását. A főbb kompetenciák: A kihasználható párhuzamosság szintjei. A processzorok Flynn-féle és korszerű osztályozása. Az adat-, a vezérlés és az erőforrás-függőségek és kezelésük főbb eljárásai, valamint a szekvenciális konzisztencia megőrzése. 1., 2. és 3. generációs szuperskalár processzorok. ISA kiterjesztések (MMX, SSE, stb.). A gyorsítótárak szervezési alternatívái, 2-3 szintes gyorsítótár hierarchiák, optimális méretek, tendenciák, példák. VLIW és EPIC architektúrák. Szál szinten párhuzamos, durván és finoman szemcsézett valamint SMT architektúrák. Folyamatszinten párhuzamos architektúrák. Alaplapok.A gyakorlatok tartalma:Ismert processzorok architekturális áttekintése. Regiszterkészlet, utasításkészlet megismerése. Gépi szintű programok futási mechanizmusai, kapcsolatuk az operációs rendszerekkel. Fordítóprogramok általános jellemzői. A futtatható állományok struktúrája (.COM és EXE file-ok felépítése). Egyszerű, szekvenciális programok készítése, iterációk, input/output műveletek megvalósítása. Számítások, adatkonverziók, szimulációk készítése. Periférikus eszközök „elérése”, programozása (grafikus elemek megjelenítése, soros, párhuzamos portok kezelése)."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szamitogep-architekturak-alapjai-ii" ;
+				    oloud:subjectCode "NAISA2SAND" ;
+				    oloud:subjectName "Számítógép architektúrák alapjai II."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Péter_Broczkó ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Számítógép architektúrák alapjai I."@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAISH0SAED
+			:NAISH0SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "5.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerkednek a számítógép hálózatok felépítésének és működésének alapelveivel. Megismerik a hálózatok tárgyalása során alapvető fogalmakat. megvalósítási elveket és módszereket. referencia modelleket. Áttekintő ismereteket szereznek a TCP/IP protokoll-család működési elveiről. az Internet felépítéséről. címzési rendszeréről. az alapvető Internet szolgáltatásokat biztosító protokollok működési elveiről. az IP protokoll továbbfejlesztési irányairól. Megismerik a számítógép hálózatokban alkalmazott alapvető fizikai adatátviteli közegeket. azok működési módjait és jellemzőit. Áttekintést kapnak a számítógép hálózatok működési módjairól. felhasználási lehetőségeiről. elvárható teljesítményükről és alkalmazási sajátosságaikról. Főbb kompetenciák: Hálózati referencia modellek. Internet alapelvek. az Internet címzési és névkezelési rendszere. az IP protokoll működési módja. kapcsolatmentes és kapcsolat-orientált adatátvitel jellemzői. szállítási protokollok. Lokális hálózati technikák. Ethernet hálózatok. kapcsolás (switching) és útválasztás (routing) működése. Nagyterületű hálózati technológiák."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szamitogep-halozatok" ;
+				    oloud:subjectCode "NAISH0SAED" ;
+				    oloud:subjectName "Számítógép hálózatok"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Miklós_Kozlovszky ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Operációs rendszerek"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAISH0SAND
+			:NAISH0SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "5.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerkednek a számítógép hálózatok felépítésének és működésének alapelveivel. Megismerik a hálózatok tárgyalása során alapvető fogalmakat, megvalósítási elveket és módszereket, referencia modelleket. Áttekintő ismereteket szereznek a TCP/IP protokoll-család működési elveiről, az Internet felépítéséről, címzési rendszeréről, az alapvető Internet szolgáltatásokat biztosító protokollok működési elveiről, az IP protokoll továbbfejlesztési irányairól. Megismerik a számítógép hálózatokban alkalmazott alapvető fizikai adatátviteli közegeket, azok működési módjait és jellemzőit. Áttekintést kapnak a számítógép hálózatok működési módjairól, felhasználási lehetőségeiről, elvárható teljesítményükről és alkalmazási sajátosságaikról.Főbb kompetenciák: Hálózati referencia modellek, Internet alapelvek, az Internet címzési és névkezelési rendszere, az IP protokoll működési módja, kapcsolatmentes és kapcsolat-orientált adatátvitel jellemzői, szállítási protokollok. Lokális hálózati technikák, Ethernet hálózatok, kapcsolás (switching) és útválasztás (routing) működése. Nagyterületű hálózati technológiák."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szamitogep-halozatok" ;
+				    oloud:subjectCode "NAISH0SAND" ;
+				    oloud:subjectName "Számítógép hálózatok"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :Miklós_Kozlovszky ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Operációs rendszerek"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAISS1SAED
+			:NAISS1SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "0.00" ;
+				    oloud:subjectDescription "A szoftver tervezésével és készítésével. valamint a digitális rendszerekkel kapcsolatos tudnivalók átfogó ellenőrzése. A szigorlat a Programozás I–III. Szoftvertechnológia I-II.. a Digitális technika és a Digitális rendszerek tárgyakban tanultak összefoglaló. elemző ismeretét ellenőrzi."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szakmai-szigorlat" ;
+				    oloud:subjectCode "NAISS1SAED" ;
+				    oloud:subjectName "Szakmai szigorlat"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :János_Fodor ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Digitális rendszerek"@hu, "Szoftvertechnológia II,"@hu, "Elektronika"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAISS1SAND
+			:NAISS1SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "0.00" ;
+				    oloud:subjectDescription "A szoftver tervezésével és készítésével, valamint a digitális rendszerekkel kapcsolatos tudnivalók átfogó ellenőrzése. A szigorlat a Programozás I–III. Szoftvertechnológia I-II., a Digitális technika és a Digitális rendszerek tárgyakban tanultak összefoglaló, elemző ismeretét ellenőrzi."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szakmai-szigorlat" ;
+				    oloud:subjectCode "NAISS1SAND" ;
+				    oloud:subjectName "Szakmai szigorlat"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :János_Fodor ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Digitális rendszerek"@hu, "Szoftvertechnológia II."@hu, "Elektronika"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIST1SAED
+			:NAIST1SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "3.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerkednek a szoftvertechnológia alapvető paradigmáival. a szoftver tervezés. fejlesztés metodikájával. különös tekintettel az objektum-orientált modellezésen alapuló modern megoldásokra. Az előadások főbb tématerületei: a szoftvertechnológia alapfogalmai. a szoftverfejlesztés paradigmái. a hagyományos szoftverfejlesztési fázisok. életciklus modellek. A szoftverfejlesztés lehetőségei. az objektum-orientált analízis és tervezési módszerek. korai módszertanok (OOD. RDD. OOAD. OMT). Az objektum alapú modellezés. a modell szerepe a szoftverfejlesztési folyamatban. a modell alapú megközelítés. a Unified Modelling Language. az UML modelljei. alkalmazásuk a fejlesztés során. az UML profilok. a modell-vezérelt architektúra (MDA). Tervezési minták alkalmazása. A Rational Unified Process (RUP) egységesített fejlesztési módszertan. alkalmazásfejlesztés az UML és RUP segítségével. Esettanulmányok. mintapéldák."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szoftvertechnologia-i" ;
+				    oloud:subjectCode "NAIST1SAED" ;
+				    oloud:subjectName "Szoftvertechnológia I."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :József_Tick ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás II,"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIST1SAND
+			:NAIST1SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "3.00" ;
+				    oloud:subjectDescription "A tárgy keretében a hallgatók megismerkednek a szoftvertechnológia alapvető paradigmáival, a szoftver tervezés, fejlesztés metodikájával, különös tekintettel az objektum-orientált modellezésen alapuló modern megoldásokra. Az előadások főbb tématerületei: a szoftvertechnológia alapfogalmai, a szoftverfejlesztés paradigmái, a hagyományos szoftverfejlesztési fázisok, életciklus modellek. A szoftverfejlesztés lehetőségei, az objektum-orientált analízis és tervezési módszerek, korai módszertanok (OOD, RDD, OOAD, OMT). Az objektum alapú modellezés, a modell szerepe a szoftverfejlesztési folyamatban, a modell alapú megközelítés, a Unified Modelling Language, az UML modelljei, alkalmazásuk a fejlesztés során, az UML profilok, a modell-vezérelt architektúra (MDA). Tervezési minták alkalmazása. A Rational Unified Process (RUP) egységesített fejlesztési módszertan, alkalmazásfejlesztés az UML és RUP segítségével. Esettanulmányok, mintapéldák."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/szoftvertechnologia-i" ;
+				    oloud:subjectCode "NAIST1SAND" ;
+				    oloud:subjectName "Szoftvertechnológia I."@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :József_Tick ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Programozás II."@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIVI1SAED
+			:NAIVI1SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "A vállalati rendszer. az információs rendszer. IT eszközök és osztályozásuk. az információs rendszerrel szemben támasztott követelmények. A vállalat külső információ-kapcsolati modellje. (COBIT). A vállalati rendszer funkcionális alrendszerekre történő bontása: vevők kiszolgálása. beszerzés. pénzügy. készlet nyilvántartás- és gazdálkodás. Az alrendszerek kapcsolatai. üzleti folyamatok. a folyamatokat támogató adat- és eljárásmodell. Informatikai folyamatok. Rendszer szerviz funkciók. A kontroll fogalma és jelentősége. osztályozás. alkalmazási példák. Történeti áttekintés. jelenlegi helyzet ERP. ERP II rendszerek. az e-business. A rendszer kiválasztás folyamata. vásárlás. Szolgáltatásként történő igénybevétel. Technikai háttér. Workflow rendszerek. EDI. Internet alapú kapcsolatok fejlődése. BPR. BPM. BPMN."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/vallalati-informacios-rendszerek-0" ;
+				    oloud:subjectCode "NAIVI1SAED" ;
+				    oloud:subjectName "Vállalati információs rendszerek"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :László_Erdődi ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Adatbázisok"@hu, "Szoftvertechnológia I,"@hu, "Vállalkozás gazdaságtan"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIVI1SAND
+			:NAIVI1SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "A vállalati rendszer, az információs rendszer, IT eszközök és osztályozásuk, az információs rendszerrel szemben támasztott követelmények. A vállalat külső információ-kapcsolati modellje. (COBIT). A vállalati rendszer funkcionális alrendszerekre történő bontása: vevők kiszolgálása, beszerzés, pénzügy, készlet nyilvántartás- és gazdálkodás. Az alrendszerek kapcsolatai, üzleti folyamatok, a folyamatokat támogató adat- és eljárásmodell. Informatikai folyamatok. Rendszer szerviz funkciók. A kontroll fogalma és jelentősége, osztályozás, alkalmazási példák. Történeti áttekintés, jelenlegi helyzet ERP, ERP II rendszerek, az e-business. A rendszer kiválasztás folyamata, vásárlás. Szolgáltatásként történő igénybevétel. Technikai háttér. Workflow rendszerek. EDI. Internet alapú kapcsolatok fejlődése. BPR, BPM, BPMN."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/vallalati-informacios-rendszerek-0" ;
+				    oloud:subjectCode "NAIVI1SAND" ;
+				    oloud:subjectName "Vállalati információs rendszerek"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :László_Erdődi ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Adatbázisok"@hu, "Szoftvertechnológia I."@hu, "Vállalkozás gazdaságtan"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIVI2SAED
+			:NAIVI2SAED rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "A laborgyakorlat célja az előadásokon elhangzottak gyakorlati példán keresztüli elsajátítása. ennek érdekében a hallgatók megismerkedhetnek egyrészt az ARIS. Signavio és az IBM Websphere Business Modeler nevű folyamatmodellező eszközök használatával a folyamatmodellezés technikájával. az egyes modellekkel valamint a folyamatok szimulációjával. Másrészt az egyes üzleti folyamatokat kiszolgáló adatmodellekkel. A hallgatók csoportokba szervezve a minta kisvállalat egy – egy területét vizsgálják (vevő-. szállító-. cikk és készlet-. számlázás-. vevői ajánlatkérés és megrendelés-. szállítói ajánlatkérés és megrendelés-. vevői folyószámla-. szállítói folyószámla-modul). Az egyes teamekben elkészített folyamatmodellek. illetve az erre épülő adatmodellek alapot biztosítanak a szoftver megtervezéséhez és kifejlesztéséhez. illetve egy standard rendszer kiválasztásához."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/vallalati-informacios-rendszerek-modellezese-0" ;
+				    oloud:subjectCode "NAIVI2SAED" ;
+				    oloud:subjectName "Vállalati információs rendszerek modellezése"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :László_Erdődi ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Vállalati információs rendszerek"@hu ;
+				    oloud:subjectDegree :bsc .
+
+###  http://lod.nik.uni-obuda.hu/data/NAIVI2SAND
+			:NAIVI2SAND rdf:type oloud:Subject ,
+					     owl:NamedIndividual ;
+				    oloud:subjectCredit "2.00" ;
+				    oloud:subjectDescription "A laborgyakorlat célja az előadásokon elhangzottak gyakorlati példán keresztüli elsajátítása, ennek érdekében a hallgatók megismerkedhetnek egyrészt az ARIS, Signavio és az IBM Websphere Business Modeler nevű folyamatmodellező eszközök használatával a folyamatmodellezés technikájával, az egyes modellekkel valamint a folyamatok szimulációjával. Másrészt az egyes üzleti folyamatokat kiszolgáló adatmodellekkel. A hallgatók csoportokba szervezve a minta kisvállalat egy – egy területét vizsgálják (vevő-, szállító-, cikk és készlet-, számlázás-, vevői ajánlatkérés és megrendelés-, szállítói ajánlatkérés és megrendelés-, vevői folyószámla-, szállítói folyószámla-modul). Az egyes teamekben elkészített folyamatmodellek, illetve az erre épülő adatmodellek alapot biztosítanak a szoftver megtervezéséhez és kifejlesztéséhez, illetve egy standard rendszer kiválasztásához."@hu ;
+				    foaf:homepage "http://users.nik.uni-obuda.hu/to/tantargy/vallalati-informacios-rendszerek-modellezese-0" ;
+				    oloud:subjectCode "NAIVI2SAND" ;
+				    oloud:subjectName "Vállalati információs rendszerek modellezése"@hu ;
+				    oloud:subjectOrganization :AI ;
+				    oloud:subjectMajor :ComputerEngineer ;
+				    oloud:responsibilityOf :László_Erdődi ;
+				    oloud:subjectProgramType :FullTime ;
+				    oloud:subjectSpecialization :General ;
+				    oloud:subjectLanguage :Hungarian ;
+				    oloud:subjectRequires "Vállalati információs rendszerek"@hu ;
+				    oloud:subjectDegree :bsc .
+
+

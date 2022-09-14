@@ -1,0 +1,83 @@
+﻿@prefix : <http://lod.nik.uni-obuda.hu/data/> .
+@prefix oloud: <http://lod.nik.uni-obuda.hu/oloud-base#> .
+@prefix loc: <http://lod.nik.uni-obuda.hu/oloud-indoor#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix part: <http://purl.org/vocab/participation/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@base <http://lod.nik.uni-obuda.hu/data/> .
+
+###  http://lod.nik.uni-obuda.hu/data/OE
+
+:OE rdf:type oloud:Organization ,
+             owl:NamedIndividual ;
+    
+    foaf:homepage "http://uni-obuda.hu" ;
+    
+    rdfs:comment "Obuda University constantly builds and develops a competitive institution of higher education meeting the criteria and regulations of the European Higher Education Area."@en ;
+    
+    foaf:name "Óbudai Egyetem"@hu ;
+    
+    vcard:hasAddress :AddressOE ;
+    
+    oloud:responsibilityOf :János_Fodor .
+
+###  http://lod.nik.uni-obuda.hu/data/NIK
+
+:NIK rdf:type oloud:Organization ,
+              owl:NamedIndividual ;
+     
+     rdfs:comment "The mission of the Faculty is to manage the BSc and MSc Computer Engineering courses, which enables students to find a place for themselves in the labour market immediately after graduation whilst also preparing them for the second phase of education: the two-year MSc course. Graduates of MSc can further their studies in Applied Informatics Doctoral School."@en ;
+     
+     foaf:homepage "http://nik.uni-obuda.hu" ;
+     
+     foaf:name "Neumann János Informatikai Kar"@hu ;
+     
+     vcard:hasAddress :AddressOE ;
+     
+     oloud:responsibilityOf :András_Molnár;
+     
+     foaf:phone <tel:+3616665520> .
+
+
+###  http://lod.nik.uni-obuda.hu/data/AI
+
+:AI rdf:type oloud:Organization ,
+             owl:NamedIndividual ;
+    
+    foaf:name "Alkalmazott Informatika Intézet"@hu ;
+    
+    foaf:member :András_Molnár,
+                :Rita_Fleiner ;
+    
+    oloud:responsibilityOf :Szabolcs_Sergyán ;
+    
+    	foaf:homepage	<http://nik.uni-obuda.hu/hu/intezetek/alkalmazott-informatikai-intezet>;	
+	foaf:phone		<tel:+3616665541> .
+
+###  http://lod.nik.uni-obuda.hu/data/AMI
+:AMI rdf:type oloud:Organization ,
+             owl:NamedIndividual ;
+	foaf:name		"Alkalmazott Matematikai Intézet";
+	foaf:homepage	<http://nik.uni-obuda.hu/hu/intezetek/alkalmazott-matematika>;	
+oloud:responsibilityOf :Róbert_Fullér;
+
+	foaf:phone		<tel:+3616665544> .
+
+###  http://lod.nik.uni-obuda.hu/data/BI
+:BI rdf:type oloud:Organization ,
+             owl:NamedIndividual ;
+	foaf:name		"    Biomatika Intézet";
+	foaf:homepage	<http://nik.uni-obuda.hu/hu/intezetek/biomatika-intezet>;	
+oloud:responsibilityOf :Miklós_Kozlovszky ;
+
+	foaf:phone		<tel:+3616665554> .
+

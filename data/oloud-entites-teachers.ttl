@@ -1,0 +1,388 @@
+@prefix : <http://lod.nik.uni-obuda.hu/data/> .
+@prefix oloud: <http://lod.nik.uni-obuda.hu/oloud-base#> .
+@prefix loc: <http://lod.nik.uni-obuda.hu/oloud-indoor#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix part: <http://purl.org/vocab/participation/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@base <http://lod.nik.uni-obuda.hu/data/> .
+
+###  http://lod.nik.uni-obuda.hu/data/Dominika_Fleiner
+			:Dominika_Fleiner rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Dominika" ;
+			foaf:familyName "Fleiner" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/István_Nagy
+			:István_Nagy rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "István" ;
+			foaf:familyName "Nagy" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Gábor_Légrádi
+			:Gábor_Légrádi rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Gábor" ;
+			foaf:familyName "Légrádi" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Anna_Várkonyi
+			:Anna_Várkonyi rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Anna" ;
+			foaf:familyName "Várkonyi" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Zsolt_Szabó-Resch
+			:Zsolt_Szabó-Resch rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Zsolt" ;
+			foaf:familyName "Szabó-Resch" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Tamás_Schubert
+			:Tamás_Schubert rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Tamás" ;
+			foaf:familyName "Schubert" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Dezső_Sima
+			:Dezső_Sima rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Dezső" ;
+			foaf:familyName "Sima" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Gyula_Fehér
+			:Gyula_Fehér rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Gyula" ;
+			foaf:familyName "Fehér" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Tamás_Vigh
+			:Tamás_Vigh rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Tamás" ;
+			foaf:familyName "Vigh" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Antal_Turóczi
+			:Antal_Turóczi rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Antal" ;
+			foaf:familyName "Turóczi" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Tamás_Ferenci
+			:Tamás_Ferenci rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Tamás" ;
+			foaf:familyName "Ferenci" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/József_Klespitz
+			:József_Klespitz rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "József" ;
+			foaf:familyName "Klespitz" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Adalbert_Kovács
+			:Adalbert_Kovács rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Adalbert" ;
+			foaf:familyName "Kovács" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/András_Molnár
+			:András_Molnár rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "András" ;
+			foaf:familyName "Molnár" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Zoltán_Stojcsics
+			:Zoltán_Stojcsics rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Zoltán" ;
+			foaf:familyName "Stojcsics" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/György_Eigner
+			:György_Eigner rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "György" ;
+			foaf:familyName "Eigner" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/László_Somlyai
+			:László_Somlyai rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "László" ;
+			foaf:familyName "Somlyai" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Krisztián_Karóczkai
+			:Krisztián_Karóczkai rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Krisztián" ;
+			foaf:familyName "Karóczkai" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/László_Csink
+			:László_Csink rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "László" ;
+			foaf:familyName "Csink" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/József_Tick
+			:József_Tick rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "József" ;
+			foaf:familyName "Tick" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/László_Németh
+			:László_Németh rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "László" ;
+			foaf:familyName "Németh" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Eszter_Balázsné
+			:Eszter_Balázsné rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Eszter" ;
+			foaf:familyName "Balázsné" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Anna_Vörösné
+			:Anna_Vörösné rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Anna" ;
+			foaf:familyName "Vörösné" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/László_Kutor
+			:László_Kutor rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "László" ;
+			foaf:familyName "Kutor" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Gabriella_Nagy
+			:Gabriella_Nagy rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Gabriella" ;
+			foaf:familyName "Nagy" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Márton_Léczfalvy
+			:Márton_Léczfalvy rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Márton" ;
+			foaf:familyName "Léczfalvy" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/József_Kelemen
+			:József_Kelemen rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "József" ;
+			foaf:familyName "Kelemen" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/István_Lovas
+			:István_Lovas rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "István" ;
+			foaf:familyName "Lovas" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Balázs_Kurtán
+			:Balázs_Kurtán rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Balázs" ;
+			foaf:familyName "Kurtán" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Valéria_Póser
+			:Valéria_Póser rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Valéria" ;
+			foaf:familyName "Póser" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Zoltán_Vámossy
+			:Zoltán_Vámossy rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Zoltán" ;
+			foaf:familyName "Vámossy" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/László_Nádai
+			:László_Nádai rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "László" ;
+			foaf:familyName "Nádai" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Szabolcs_Sergyán
+			:Szabolcs_Sergyán rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Szabolcs" ;
+			foaf:familyName "Sergyán" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Miklós_Kozlovszky
+			:Miklós_Kozlovszky rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Miklós" ;
+			foaf:familyName "Kozlovszky" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Dávid_Bedők
+			:Dávid_Bedők rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Dávid" ;
+			foaf:familyName "Bedők" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Sándor_Szénási
+			:Sándor_Szénási rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Sándor" ;
+			foaf:familyName "Szénási" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Zsolt_Bringye
+			:Zsolt_Bringye rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Zsolt" ;
+			foaf:familyName "Bringye" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Dániel_Prém
+			:Dániel_Prém rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Dániel" ;
+			foaf:familyName "Prém" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Ádám_Simon
+			:Ádám_Simon rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Ádám" ;
+			foaf:familyName "Simon" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Gergely_Windisch
+			:Gergely_Windisch rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Gergely" ;
+			foaf:familyName "Windisch" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Zsolt_Sziklai
+			:Zsolt_Sziklai rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Zsolt" ;
+			foaf:familyName "Sziklai" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Ádám_Tikász
+			:Ádám_Tikász rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Ádám" ;
+			foaf:familyName "Tikász" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Eszter_Cseri
+			:Eszter_Cseri rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Eszter" ;
+			foaf:familyName "Cseri" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Gábor_Kertész
+			:Gábor_Kertész rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Gábor" ;
+			foaf:familyName "Kertész" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Krisztina_Erdélyi
+			:Krisztina_Erdélyi rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Krisztina" ;
+			foaf:familyName "Erdélyi" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Péter_Broczkó
+			:Péter_Broczkó rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Péter" ;
+			foaf:familyName "Broczkó" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/János_Sicz-Mesziár
+			:János_Sicz-Mesziár rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "János" ;
+			foaf:familyName "Sicz-Mesziár" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Tamás_Tiszai
+			:Tamás_Tiszai rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Tamás" ;
+			foaf:familyName "Tiszai" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Károly_Farkas
+			:Károly_Farkas rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Károly" ;
+			foaf:familyName "Farkas" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Zoltán_Jeges
+			:Zoltán_Jeges rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Zoltán" ;
+			foaf:familyName "Jeges" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Péter_Holyinka
+			:Péter_Holyinka rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Péter" ;
+			foaf:familyName "Holyinka" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Balázs_Schmuck
+			:Balázs_Schmuck rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Balázs" ;
+			foaf:familyName "Schmuck" .
+
+
+###  http://lod.nik.uni-obuda.hu/data/Károly_Szommer
+			:Károly_Szommer rdf:type oloud:Person ,
+			owl:NamedIndividual ;
+			foaf:firstName "Károly" ;
+			foaf:familyName "Szommer" .
+
+
