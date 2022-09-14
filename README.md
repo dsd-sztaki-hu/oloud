@@ -3,7 +3,7 @@
 The Ontology for Linked Open University Data (OLOUD) is a practical approach to model the education activities of a typical Hungarian university. OLOUD aims to integrate data from several sources and provide personal timetables, course-, subject-, curriculum information and other types of help for students and lecturers.
 
 The following diagram summarizes the major concepts for university students and teachers in Hungary:
-![The main concepts of OLOUD](olod-concepts.png)
+![The main concepts of OLOUD](oloud-concepts.png)
 
 Though the Bologna Process ensures a certain level of compatibility for education systems in the EU, this does not reach deeper constructs of the educational model. We found that especially the meanings of course, subject and study programme are quite different in currently available models. A short summary of how these terms are interpreted in Hungarian education is the following.
 
@@ -11,15 +11,11 @@ After enrolling to the university each student is assigned to a Curriculum, whic
 
 In the case of Hungarian universities, it is crucial to understand the difference between Subjects and Courses. Course is the elementary unit of the educational process, where date, location, teacher and students are assigned. Course is the framework which has a specific training type (like lecture, practice or seminar) and has some requirements that students have to complete. Subject is a higher level component of the training process, it is the unit of the curriculum with a specified training content, and fulfillment is rewarded with a number of credits. It may contain more courses, which all must be completed for the completion of a subject.
 
-The OLOUD ontology consists of two modules: OLOUD-BASE and OLOUD-TIME. The former describes all the university related concepts, uses the prefix oloud and namespace http://lod.nik.uni-obuda.hu/oloud/oloud#. The latter provides the necessary classes and properties to describe course time data as recurring events, uses the prefix otime and namespace http://lod.nik.uni-obuda.hu/oloud/otime#. OLOUD uses iLOC ontology for indoor navigation and indoor location description tasks.
-
-Download OLOUD-BASE module of the ontology in Turtle format.
-
-Download OLOUD-TIME module of the ontology in Turtle format.
+The OLOUD ontology consists of two modules: [OLOUD-BASE](oloud-20160609.owl) and [OLOUD-TIME](oloud-time-20160609.owl). The former describes all the university related concepts, uses the prefix oloud and namespace http://lod.nik.uni-obuda.hu/oloud/oloud#. The latter provides the necessary classes and properties to describe course time data as recurring events, uses the prefix otime and namespace http://lod.nik.uni-obuda.hu/oloud/otime#. OLOUD also uses the [iLOC ontology](https://github.com/dsd-sztaki-hu/iLOC) for indoor navigation and indoor location description tasks.
 
 ## SPARQL examples for OLOUD
 
-The following SPARQL queries demonstrate the capabilities of the OLOUD ontology. Using FILTERs results can be limited to specific entities (rooms, courses, etc.), as the examples below return all data.
+The following SPARQL queries demonstrate the capabilities of the OLOUD ontology. Using FILTERs results can be limited to specific entities (rooms, courses, etc.), as the examples below return all data. You can use the files in the data folder as test data.
 
 1. What are the courses for a given subject in a specific semester?
 
