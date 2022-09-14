@@ -13,6 +13,48 @@ In the case of Hungarian universities, it is crucial to understand the differenc
 
 The OLOUD ontology consists of two modules: [OLOUD-BASE](oloud-20160609.owl) and [OLOUD-TIME](oloud-time-20160609.owl). The former describes all the university related concepts, uses the prefix oloud and namespace http://lod.nik.uni-obuda.hu/oloud/oloud#. The latter provides the necessary classes and properties to describe course time data as recurring events, uses the prefix otime and namespace http://lod.nik.uni-obuda.hu/oloud/otime#. OLOUD also uses the [iLOC ontology](https://github.com/dsd-sztaki-hu/iLOC) for indoor navigation and indoor location description tasks.
 
+## Papers about OLOUD
+
+Fleiner, R., Szász, B., Micsik, A. (2017). OLOUD - An Ontology for Linked Open University Data. ACTA POLYTECHNICA HUNGARICA, 14(4), 63–82. http://doi.org/10.12700/APH.14.4.2017.4.4
+
+```
+@article{MTMT:3304250,
+	title = {OLOUD - An Ontology for Linked Open University Data},
+	url = {https://m2.mtmt.hu/api/publication/3304250},
+	author = {Fleiner, Rita Dominika and Szász, Barnabás and Micsik, András},
+	doi = {10.12700/APH.14.4.2017.4.4},
+	journal-iso = {ACTA POLYTECH HUNG},
+	journal = {ACTA POLYTECHNICA HUNGARICA},
+	volume = {14},
+	unique-id = {3304250},
+	issn = {1785-8860},
+	year = {2017},
+	eissn = {1785-8860},
+	pages = {63-82},
+	orcid-numbers = {Micsik, András/0000-0001-9859-9186}
+}
+```
+
+Szasz, B., Fleiner, R., Micsik, A. (2017). A case study on Linked Data for University Courses. LECTURE NOTES IN COMPUTER SCIENCE, 10034, 265–276. http://doi.org/10.1007/978-3-319-55961-2_27
+```
+@article{MTMT:3253922,
+	title = {A case study on Linked Data for University Courses},
+	url = {https://m2.mtmt.hu/api/publication/3253922},
+	isbn = {9783319559605},
+	author = {Szász, Barnabás and Fleiner, Rita Dominika and Micsik, András},
+	doi = {10.1007/978-3-319-55961-2_27},
+	journal-iso = {LECT NOTES COMPUT SC},
+	journal = {LECTURE NOTES IN COMPUTER SCIENCE},
+	volume = {10034},
+	unique-id = {3253922},
+	issn = {0302-9743},
+	year = {2017},
+	eissn = {1611-3349},
+	pages = {265-276},
+	orcid-numbers = {Micsik, András/0000-0001-9859-9186}
+}
+```
+
 ## SPARQL examples for OLOUD
 
 The following SPARQL queries demonstrate the capabilities of the OLOUD ontology. Using FILTERs results can be limited to specific entities (rooms, courses, etc.), as the examples below return all data. You can use the files in the data folder as test data.
